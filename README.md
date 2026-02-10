@@ -14,4 +14,5 @@ Proof-of-Concept (POC) ransomware developed for academic research in static malw
 - Built-in safety features
 
 ## Project Structure
+
 poc-ransomware/ ├── modules/ │ ├── key_manager.py # RSA key generation & management │ ├── crypto_engine.py # AES encryption engine │ ├── file_scanner.py # File discovery module │ └── ransom_note.py # Ransom note generator ├── main.py # Main POC ransomware ├── decryptor.py # Decryption tool ├── test_data/ # Test files directory └── keys/ # Generated keys storage
